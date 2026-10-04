@@ -142,3 +142,13 @@ WHERE EXISTS (
     WHERE f2.product_category = f1.product_category
     HAVING COUNT(DISTINCT f2.region) > 3
 );
+
+
+SELECT *
+FROM flourmills_sales f1
+WHERE EXISTS (
+    SELECT 1
+    FROM flourmills_sales f2
+    WHERE f2.region = f1.region
+      AND EXTRACT(YEAR FROM f2.sale_date) = 2024
+);
