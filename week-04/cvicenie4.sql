@@ -174,3 +174,91 @@ SELECT
 FROM ranked_purchases
 WHERE rn = 1
 ORDER BY customer_id ASC;
+
+--AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+WITH ranked_items AS (
+    SELECT
+        invoice_no,
+        stock_code,
+        description,
+        quantity,
+        unit_price,
+        quantity * unit_price AS amount,
+        ROW_NUMBER() OVER (
+            PARTITION BY invoice_no
+            ORDER BY quantity * unit_price DESC
+        ) AS row_num
+    FROM retail_sales
+)
+SELECT
+    invoice_no,
+    stock_code,
+    description,
+    quantity,
+    unit_price,
+    amount,
+    row_num
+FROM ranked_items
+WHERE row_num <= 3
+ORDER BY invoice_no, row_num;
+
+--AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+WITH customer_monthly_sales AS (
+    SELECT
+        country,
+        DATE_TRUNC('month', invoice_date) AS month,
+        customer_id,
+        SUM(quantity * unit_price) AS total_amount
+    FROM retail_sales
+    WHERE customer_id IS NOT NULL
+    GROUP BY country, DATE_TRUNC('month', invoice_date), customer_id
+),
+ranked AS (
+    SELECT
+        country,
+        month,
+        customer_id,
+        total_amount,
+        DENSE_RANK() OVER (
+            PARTITION BY country, month
+            ORDER BY total_amount DESC
+        ) AS sales_rank
+    FROM customer_monthly_sales
+)
+SELECT
+    country,
+    month,
+    customer_id,
+    total_amount,
+    sales_rank
+FROM ranked
+WHERE sales_rank <= 5
+ORDER BY country, month, sales_rank, customer_id;
+
+--AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+WITH ranked_items AS (
+    SELECT
+        invoice_no,
+        stock_code,
+        description,
+        quantity,
+        unit_price,
+        DENSE_RANK() OVER (
+            PARTITION BY invoice_no
+            ORDER BY unit_price DESC
+        ) AS price_rank
+    FROM retail_sales
+)
+SELECT
+    invoice_no,
+    stock_code,
+    description,
+    quantity,
+    unit_price,
+    price_rank
+FROM ranked_items
+WHERE price_rank <= 5
+ORDER BY invoice_no, price_rank, stock_code;
