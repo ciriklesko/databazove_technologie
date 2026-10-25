@@ -1,0 +1,12 @@
+rule,failed_rows,failed_percent
+invalid_order_id_format,0,0.0
+duplicate_order_id,22,11.0
+invalid_region,42,21.0
+invalid_product,98,49.0
+invalid_quantity,29,14.5
+invalid_sales_amount,38,19.0
+invalid_discount,29,14.5
+invalid_order_date,3,1.5
+invalid_delivery_date,10,5.0
+delivery_before_order,18,9.0
+invalid_phone,34,17.0

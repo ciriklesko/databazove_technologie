@@ -1,0 +1,101 @@
+id,name,department,salary,gender,age,hire_date,city
+1,William Stevens,IT,8867,Male,23,2024-06-13,Bautistaport
+2,Darryl Neal,Operations,9513,Female,27,2020-03-19,Melissatown
+3,Benjamin Jones,Marketing,10461,Female,40,2017-10-29,Jordanhaven
+4,Lisa Villarreal,HR,11161,Female,50,2017-07-09,New Joshua
+5,Pamela Benton,Sales,9049,Female,40,2024-08-01,Lake Chelseaborough
+6,Jennifer Smith,IT,10723,Male,48,2016-04-08,South Jaime
+7,Richard Baldwin,IT,8639,Female,40,2020-04-18,Aliciaburgh
+8,Richard Deleon,Marketing,9796,Male,50,2018-02-28,Smithview
+9,Sarah Williams,HR,4188,Female,27,2020-02-04,New Samantha
+10,Alexis Suarez MD,Sales,11927,Male,52,2020-01-25,Montgomeryberg
+11,Jessica Monroe,Operations,7226,Female,50,2017-02-02,Perezstad
+12,James Guerrero,IT,9461,Female,32,2025-01-03,Lauraview
+13,Chloe Allen,IT,7033,Male,39,2017-04-23,Port Dillonborough
+14,Jeffrey Martinez,IT,6325,Male,48,2024-07-13,South Brendanfort
+15,Janice Burns,Finance,6722,Male,58,2018-03-29,South Tiffany
+16,Randy Hays,HR,9749,Male,29,2016-04-11,New Holly
+17,Michael Perez MD,HR,7397,Male,33,2017-08-02,North Juliebury
+18,Deborah Harper,Finance,11982,Male,41,2016-06-19,Salazarborough
+19,Rebecca Williams,Operations,9719,Female,50,2023-03-22,Campbellchester
+20,Stephanie Hays,Sales,8336,Male,40,2016-04-20,Kevinchester
+21,Janice Sims,Sales,4442,Male,54,2020-08-12,Codyberg
+22,Charles Smith,Marketing,7817,Male,36,2020-05-20,New Lori
+23,Ryan Price,Finance,5878,Female,27,2023-01-11,West Autumnfort
+24,Catherine Phillips,Operations,6520,Female,25,2021-12-22,Lake Emilyfurt
+25,Frances Clark,Sales,4927,Male,54,2020-05-07,Ryanmouth
+26,Zachary Bush,Sales,4527,Female,51,2016-07-14,Patrickmouth
+27,Steven Fernandez,Sales,11472,Female,54,2023-03-18,Walkermouth
+28,Michael Crane,Operations,9357,Female,50,2023-12-26,Burnsland
+29,Devin Brown,Finance,11486,Male,39,2022-09-08,Frankfort
+30,Maria Serrano,Marketing,9995,Female,43,2024-05-03,East Aaronbury
+31,Marcus Harrington,Finance,5543,Female,37,2016-04-07,Port Christown
+32,Julia Stewart,Marketing,7661,Male,58,2022-03-23,Tiffanyberg
+33,Diana Gibbs,Marketing,7404,Female,36,2024-09-27,Cruztown
+34,Marvin Smith,HR,6747,Male,33,2017-01-19,Port Juan
+35,Michael Williams,Sales,5694,Male,42,2023-07-13,Millshaven
+36,William Guzman,Operations,5250,Female,26,2023-04-17,Kimberlyborough
+37,Alexander James,IT,6582,Female,31,2015-11-25,Edwardbury
+38,Megan Best,HR,10655,Female,52,2016-07-14,East Elizabethchester
+39,Theresa Phelps,IT,10072,Female,27,2023-04-18,Pamelaside
+40,Emily Hart,Finance,6707,Female,33,2019-09-10,East Sean
+41,Alyssa Castillo,Finance,5146,Female,33,2017-01-11,Robersonmouth
+42,Sarah Nash,IT,8452,Female,55,2016-12-16,Gonzalezstad
+43,Adam Wilson,Finance,4826,Male,51,2020-07-04,Davidsontown
+44,Matthew Wilson,Finance,4094,Male,58,2019-02-12,Jonborough
+45,Andrew Dunn,HR,10201,Female,60,2021-02-07,Suttonchester
+46,Joshua Macias,IT,10809,Female,33,2016-10-02,New Victoriaville
+47,Stephanie Robinson,IT,8591,Male,51,2018-01-25,Lake Kimberly
+48,Jessica Spencer,HR,11194,Male,29,2018-02-09,Port Glenton
+49,James Kim,Operations,6030,Male,30,2023-06-18,South Jamesport
+50,Barbara Harris,IT,8790,Male,44,2018-04-27,New Lauren
+51,Kelly Barnes,Operations,5773,Female,34,2016-12-29,South Madison
+52,Seth Davis,Operations,11148,Female,55,2019-04-27,Martinburgh
+53,Lisa Aguilar,Finance,5303,Female,32,2024-04-06,South Paulbury
+54,Lauren Burke,IT,9913,Female,47,2025-01-10,Brownview
+55,Nicole Downs,Operations,5395,Female,32,2024-09-18,Bellburgh
+56,Nicholas Johnson,IT,8179,Female,35,2023-05-21,East Jasonchester
+57,John Wilson Jr.,Sales,4658,Male,27,2024-04-25,Sharitown
+58,Shawn Rivera,Sales,11005,Male,38,2016-11-19,Ronaldfort
+59,Justin Armstrong,Sales,7665,Male,25,2025-09-10,North Wesleymouth
+60,Daniel Morales,Sales,6431,Male,51,2025-07-01,Marthaland
+61,Cindy Vazquez,HR,6878,Male,59,2020-10-17,Lake Charles
+62,Walter Warren,Marketing,5800,Female,38,2022-03-17,West Bruce
+63,Jamie Gardner,Marketing,4686,Female,58,2018-09-06,South Matthewhaven
+64,Kimberly Rice,Marketing,6964,Male,26,2023-02-11,Dickersonborough
+65,Michael Marquez,IT,8114,Male,56,2019-09-23,North Lorifurt
+66,Brian Sexton,Operations,8809,Male,54,2022-08-28,West James
+67,Heidi Farrell,Finance,9831,Male,50,2024-08-02,Port Jennifer
+68,Crystal Hernandez,Operations,6258,Female,59,2016-07-29,Lake Alexanderbury
+69,Scott Morgan,Operations,11816,Female,41,2024-10-26,New Christian
+70,Larry Smith,Marketing,7263,Male,43,2024-01-08,Nicoleton
+71,Tanya Roberts,IT,6576,Female,22,2021-03-29,Brianberg
+72,Nathan Vega,Sales,4775,Male,57,2025-04-29,Mooreshire
+73,Juan Daniels,Finance,6466,Female,47,2022-08-24,West Tina
+74,Aaron Smith,HR,7178,Male,30,2019-01-22,East Jamesstad
+75,Elizabeth Hicks,Operations,9134,Male,39,2019-07-31,Williamsfurt
+76,Dennis Moore,Marketing,4521,Male,36,2022-03-01,Port Christinaland
+77,Jamie Diaz,Marketing,8875,Female,35,2024-06-07,North Ann
+78,Kelly Clark,Sales,4225,Female,22,2024-05-25,Lake Christopher
+79,Diamond Jones,IT,10143,Female,23,2021-05-06,Petersenview
+80,Melissa Jones,IT,10922,Male,40,2021-11-23,East Nancy
+81,Ashley Gray,Operations,4407,Male,29,2021-11-16,Jenningsbury
+82,Matthew Burgess,IT,11419,Male,31,2018-09-26,Gibbsfurt
+83,Craig Terry,Marketing,6260,Male,33,2017-01-02,East Amyborough
+84,Allison Rollins,Finance,8176,Male,33,2024-12-26,Andersonstad
+85,Colleen Fisher,IT,7299,Female,56,2025-08-23,Port Andrew
+86,Dr. Elizabeth Smith DVM,IT,5944,Female,54,2023-06-18,East David
+87,Jeffrey Mccullough,Operations,8982,Female,36,2022-10-31,West Jasmineshire
+88,Vanessa Wilson,Marketing,9321,Female,32,2021-07-29,North Roberthaven
+89,Donna Huynh,IT,5405,Female,52,2024-06-04,North Nathanielport
+90,Samuel Smith,IT,8669,Male,46,2020-01-04,Adrianland
+91,Deborah Simpson,Sales,7814,Male,32,2019-07-20,Morrisonburgh
+92,Julie Tyler,HR,9530,Male,22,2017-11-18,North Renee
+93,Angela Riggs,Operations,11493,Male,48,2022-02-16,West Crystal
+94,Sarah Castillo,Marketing,5944,Male,55,2023-12-28,Brooksstad
+95,Dr. Claire Wright MD,Finance,8269,Female,58,2025-02-03,Garciamouth
+96,Cory Sims,Marketing,6291,Male,27,2024-02-16,Brendanville
+97,Russell Harrison,Finance,9113,Male,42,2020-09-12,Jonesview
+98,Willie Marquez,Marketing,5292,Male,46,2018-09-03,Jenniferchester
+99,Dr. Lindsay Blake,Sales,10448,Female,34,2017-11-22,West Felicia
+100,Kerri Barnes,HR,4433,Male,45,2023-09-13,Anitabury
